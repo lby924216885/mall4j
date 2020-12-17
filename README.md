@@ -6,23 +6,13 @@
 
 `Mall4j`项目致力于为中小企业打造一个完整、易于维护的开源的电商系统，采用现阶段流行技术实现。后台管理系统包含商品管理、订单管理、运费模板、规格管理、会员管理、运营管理、内容管理、统计报表、权限管理、设置等模块。
 
-## 授权
-
-Mall4j官网 https://www.mall4j.com
-
-Mall4j 使用 AGPLv3 开源，请遵守 AGPLv3 的相关条款，或者联系作者获取商业授权(https://www.mall4j.com)
 
 ## 文档
 
-这代码有没有文档呀？ 当然有啦，你已经下载了，在doc这个文件夹上，实在不知道，我就给链接出来咯：
-
-gitee：https://gitee.com/gz-yami/mall4j/tree/master/doc
-
-看云：https://www.kancloud.cn/yami/mall4j
-
+这代码有没有文档呀？ 当然有啦，你已经下载了，在doc这个文件夹上
 ## 项目链接
 
-java后台：https://github.com/gz-yami/mall4j
+java后台：https://github.com/lby924216885/mall4j
 
 vue后台前端：https://github.com/gz-yami/mall4v
 
@@ -92,11 +82,6 @@ https://github.com/gz-yami/mall4j/wikis
 
 ![小程序截图](https://images.gitee.com/uploads/images/2019/0706/085234_4eb7509b_5094767.jpeg "小程序截图")
 
-## 提交反馈
-
-- QQ群：722835385
-
-  ![输入图片说明](https://images.gitee.com/uploads/images/2019/0723/094927_e686539d_5094767.jpeg "微信图片_20190723091006.jpg")
 
 
 ## 后续会加入微服务框架、分布式版本
