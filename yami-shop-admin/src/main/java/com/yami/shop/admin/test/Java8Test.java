@@ -28,5 +28,6 @@ public class Java8Test {
 
         System.out.println(list.stream().collect(Collectors.toMap(User::getId,user -> user)));
         System.out.println("Fix defect 2048");
+        System.out.println("updating......");
     }
 }
