@@ -3,7 +3,9 @@ package com.yami.shop.admin.test;
 import com.google.common.collect.Lists;
 
 
-import java.util.*;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
 import java.util.concurrent.ConcurrentHashMap;
 import java.util.stream.Collectors;
 
@@ -20,20 +22,12 @@ public class Java8Test {
         User user3 = new User();
         user3.setId("ddf");
         user3.setName("564");
-        User user4 = new User();
-        user4.setId("ddf");
-        user4.setName("564");
         list.add(user1);
         list.add(user2);
         list.add(user3);
-        list.add(user4);
-        list.forEach(System.out::println);
-        Map<String, User> map = list.stream().collect(Collectors.toMap(User::getId, user -> user,(k1,k2)->k1));
-        Map<String, String> map2 = list.stream().collect(Collectors.toMap(User::getId, User::getName,(k1,k2)->k1));
-        Map<String, String> map3 = list.stream().collect(Collectors.toMap(User::getId, User::getName,(k1,k2)->k1, LinkedHashMap::new));
-        System.out.println(map);
-        System.out.println(map2);
-        System.out.println(map3);
 
+        System.out.println(list.stream().collect(Collectors.toMap(User::getId,user -> user)));
+        System.out.println("Fix defect 2048");
+        System.out.println("updating......");
     }
 }
